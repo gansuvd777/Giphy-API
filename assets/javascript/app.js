@@ -69,6 +69,7 @@ $(document).ready(function(){
             event.preventDefault();
             //Get input text value
             var inputVal = $('#userInput').val();
+            inputVal.charAt(0).toUpperCase() + inputVal.slice(1);
             //push user input to array
             topics.push(inputVal);
             //Create new buttons
