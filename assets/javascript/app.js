@@ -60,6 +60,7 @@ $(document).ready(function(){
             $(newP).appendTo(newDiv)
             $(newImg).appendTo(newDiv); 
             $('.gifSection').append(newDiv);
+            console.log(stillImgUrl);
         }
         });
     }
@@ -69,7 +70,7 @@ $(document).ready(function(){
             event.preventDefault();
             //Get input text value
             var inputVal = $('#userInput').val();
-            inputVal.charAt(0).toUpperCase() + inputVal.slice(1);
+            inputVal = inputVal.charAt(0).toUpperCase() + inputVal.slice(1);
             //push user input to array
             topics.push(inputVal);
             //Create new buttons
@@ -85,8 +86,7 @@ $(document).ready(function(){
             //Changes the gif to an animated image by switching the URL
             $(this).attr('src',animateUrl);
             //Switch the data-type to animate
-            $(this).data('type','animate');
-            
+            $(this).data('type','animate'); 
         }
         else if(gifCondition === 'animate'){	
             //Change src to still
