@@ -1,22 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
 * {
-    /* background: url('../images/map.png') no-repeat center center fixed ;
-    background-size: cover; */
-    position: relative;
+    background: url('http://heritagecommunitycharter.com/heritage/media/images/backgrounds/USA-Flag-HD-wallpaper%20light.jpg.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    /* position: relative; */
 }
-#btn-section{
-    background: 5px solid black;
-    color: white;
+#submit-btn{
+    background: 5px solid red;
+    color: blue;
+    border-radius: 7px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 10px;
+}
+#submit-btn:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: azure;
+    transform: scale(1.1)
 }
 header h1{
+    font-family: 'Chakra Petch', sans-serif;
     background-color: azure;
     text-align: center;
+}
+h3{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.gif btn{
+    background-color: red;
 }
 .gifImage{
     width: 200px;
     height: 200px;
     float: left;
 }
+.img-thumbnail{
+    display: inline;
+    text-align: center;
+}
 p{
     float: left;
+    font-family: 'Chakra Petch', sans-serif;
 }
 

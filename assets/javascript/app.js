@@ -66,7 +66,6 @@ $(document).ready(function(){
     var submit = function(){
         //When submit button is clicked 
         $('#submit-btn').on('click',function(event){
-            //Prevent from the default form/input events from occuring //***** COME BACK TO THIS
             event.preventDefault();
             //Get input text value
             var inputVal = $('#userInput').val();
