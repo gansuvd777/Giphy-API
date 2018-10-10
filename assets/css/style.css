@@ -1,0 +1,22 @@
+* {
+    /* background: url('../images/map.png') no-repeat center center fixed ;
+    background-size: cover; */
+    position: relative;
+}
+#btn-section{
+    background: 5px solid black;
+    color: white;
+}
+header h1{
+    background-color: azure;
+    text-align: center;
+}
+.gifImage{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+p{
+    float: left;
+}
+
